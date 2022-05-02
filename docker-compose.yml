@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  server:
+    build: Chat/
+    ports:
+      - 5001:80
